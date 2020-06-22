@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="XADC_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="XADC_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1000001fs"></ZoomEndTime>
+      <Cursor1Time time="460836fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="148"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/XADC_tb/di_in" type="array">
+      <obj_property name="ElementShortName">di_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">di_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_tb/daddr_in" type="array">
+      <obj_property name="ElementShortName">daddr_in[6:0]</obj_property>
+      <obj_property name="ObjectShortName">daddr_in[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_tb/den_in" type="logic">
+      <obj_property name="ElementShortName">den_in</obj_property>
+      <obj_property name="ObjectShortName">den_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_tb/dwe_in" type="logic">
+      <obj_property name="ElementShortName">dwe_in</obj_property>
+      <obj_property name="ObjectShortName">dwe_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_tb/drdy_out" type="logic">
+      <obj_property name="ElementShortName">drdy_out</obj_property>
+      <obj_property name="ObjectShortName">drdy_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_tb/do_out" type="array">
+      <obj_property name="ElementShortName">do_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">do_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_tb/dclk_in" type="logic">
+      <obj_property name="ElementShortName">dclk_in</obj_property>
+      <obj_property name="ObjectShortName">dclk_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_tb/vp_in" type="logic">
+      <obj_property name="ElementShortName">vp_in</obj_property>
+      <obj_property name="ObjectShortName">vp_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_tb/vn_in" type="logic">
+      <obj_property name="ElementShortName">vn_in</obj_property>
+      <obj_property name="ObjectShortName">vn_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_tb/channel_out" type="array">
+      <obj_property name="ElementShortName">channel_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">channel_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_tb/eoc_out" type="logic">
+      <obj_property name="ElementShortName">eoc_out</obj_property>
+      <obj_property name="ObjectShortName">eoc_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_tb/alarm_out" type="logic">
+      <obj_property name="ElementShortName">alarm_out</obj_property>
+      <obj_property name="ObjectShortName">alarm_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_tb/eos_out" type="logic">
+      <obj_property name="ElementShortName">eos_out</obj_property>
+      <obj_property name="ObjectShortName">eos_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_tb/busy_out" type="logic">
+      <obj_property name="ElementShortName">busy_out</obj_property>
+      <obj_property name="ObjectShortName">busy_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_tb/eco_out" type="logic">
+      <obj_property name="ElementShortName">eco_out</obj_property>
+      <obj_property name="ObjectShortName">eco_out</obj_property>
+   </wvobject>
+</wave_config>
